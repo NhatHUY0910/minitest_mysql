@@ -61,9 +61,9 @@ use minitest;
 -- TourID int auto_increment primary key,
 -- TourTypeID int not null,
 -- TypeID varchar(255) not null,
--- Price decimal (10, 2),
 -- DayStart date not null,
 -- DayEnd date not null,
+-- DestinationID int not null,
 -- foreign key (TourTypeID) references TourTypes(TourTypeID)
 -- );
 
