@@ -1,7 +1,7 @@
 use student_management;
 
 -- select * from student where Fullname like 'Nguyen%';
--- select * from student where Fullname like 'Anh%';
+-- select * from student where Fullname like '%Anh';
 -- select * from student where age between 18 and 25;
 -- select * from student where StudentID in (12, 13);
 
